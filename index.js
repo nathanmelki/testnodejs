@@ -1,12 +1,12 @@
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
-
+import express from 'express';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MapPanel from './src/components/MapPanel';
 import AdvertisementForm from './src/components/AdvertisementForm';
 import AuctionComponent from './src/components/AuctionComponent';
+
+const app = express();
+const port = process.env.PORT || 3000;
 
 const App = () => {
   return (
@@ -22,5 +22,9 @@ const App = () => {
     </Router>
   );
 };
+
+app.listen(port, () => {
+  console.log(`Le serveur écoute sur le port ${port}`);
+});
 
 export default App;
