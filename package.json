@@ -12,6 +12,5 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-    // Ajoutez d'autres dépendances si nécessaire
   }
 }
