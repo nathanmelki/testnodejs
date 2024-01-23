@@ -1,0 +1,16 @@
+{
+  "name": "nom-de-votre-application",
+  "version": "1.0.0",
+  "description": "Description de votre application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+    // Ajoutez d'autres dépendances si nécessaire
+  },
+  "engines": {
+    "node": "version-utilisée-par-votre-application"
+  }
+}
