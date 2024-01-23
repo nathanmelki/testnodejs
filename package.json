@@ -6,10 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "dependencies": {
-    "express": "10.0.2"
-"engines": {
-  "node": "14.x",
-  "npm": "6.x"
-}
+    "express": "^4.17.1"
+    // Ajoutez d'autres dépendances si nécessaire
+  }
 }
